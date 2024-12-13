@@ -3,6 +3,7 @@ export const getCurrentDate = () => {
   return today.toISOString().split("T")[0];
 };
 
+// Helper function to generate Days of the month
 export const generateCalendarDays = (currentDate) => {
   const startOfMonth = new Date(
     currentDate.getFullYear(),
